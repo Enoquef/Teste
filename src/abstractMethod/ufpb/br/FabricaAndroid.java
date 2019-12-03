@@ -9,13 +9,11 @@ public class FabricaAndroid implements FabricaAbstrata {
 
 	@Override
 	public Menu criarMenu() {
-		
 		return new MenuAndroid();
 	}
 
 	@Override
 	public Botao criarBotao() {
-		
 		return new BotaoAndroid();
 	}
 
